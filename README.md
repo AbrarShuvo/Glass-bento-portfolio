@@ -1,27 +1,58 @@
-# Glass Bento Portfolio Template
+<div align="center">
 
-A free portfolio template for students and freelancers: frosted-glass panels, a soft gradient hero, a moving skills strip, case-study pages, dark mode and a working contact form. Plain HTML, CSS and a little JavaScript. No framework, no build step.
+<img src="images/banner.svg" alt="Glass Bento Portfolio: a free portfolio template for students and freelancers" width="100%">
 
-<!-- TODO: add a GIF or screenshot here, e.g. ![Preview](images/preview.png) -->
+# 🫧 Glass Bento Portfolio Template
 
-## Use it
+**A free, frosted-glass portfolio for students and freelancers. Fill in your details, push to GitHub, and you're live in minutes.**
 
-1. Click **Use this template** at the top of this repo, then **Create a new repository**.
-2. Name it `YOUR-USERNAME.github.io`.
-3. Turn on **Settings → Pages → Deploy from a branch → main**.
-4. Your site is live in about a minute.
+[🌐 **Live demo**](https://abrarshuvo.github.io/Glass-bento-portfolio/) &nbsp;·&nbsp; [✨ **Use this template**](https://github.com/AbrarShuvo/Glass-bento-portfolio/generate) &nbsp;·&nbsp; [🐛 Report an issue](https://github.com/AbrarShuvo/Glass-bento-portfolio/issues)
+
+![License: MIT](https://img.shields.io/badge/license-MIT-5B4FDB) ![No build step](https://img.shields.io/badge/build%20step-none-1F9D63) ![GitHub Pages ready](https://img.shields.io/badge/GitHub%20Pages-ready-3350DC)
+
+</div>
+
+---
+
+## 👀 Preview
+
+| Light | Dark |
+|---|---|
+| <img src="images/preview.png" alt="Light mode preview"> | <img src="images/preview-dark.png" alt="Dark mode preview"> |
+
+## 🎯 Why this exists
+
+Most free portfolio templates are plain, heavy with frameworks, or need a build tool. This one is **plain HTML, CSS and a little JavaScript**: open it, edit the text, and publish.
+
+## ✨ What you get
+
+- 🪟 **Glass design system**: frosted panels, crystal bubbles and soft colour clouds, all from three classes
+- 🌗 **Dark mode** with a toggle that remembers your choice
+- 📄 **7 ready pages**: Home, Work, Case study, Services, About, Contact, 404
+- 📬 **Working contact form** with no backend (uses [FormSubmit](https://formsubmit.co))
+- 📱 **Mobile first**: tested down to 390px, no sideways scroll
+- ♿ **Accessible**: skip link, visible focus rings, labelled form fields, reduced-motion support
+- 🔎 **Share-ready**: Open Graph tags, structured data, print styles
+- 🚫 **No framework, no build step, no npm**
+
+## 🚀 Quick start
+
+1. Click **[Use this template](https://github.com/AbrarShuvo/Glass-bento-portfolio/generate)** and create your repo.
+2. Name it `YOUR-USERNAME.github.io` to get your main site, or anything else for a project site.
+3. Go to **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**.
+4. Open your link in about a minute. 🎉
 
 Try it on your computer first:
 
-```
+```bash
 python -m http.server 8000
 ```
 
-Open http://localhost:8000 (use a server, not a double-click, so `404.html` works).
+Then open http://localhost:8000. Use a server, not a double-click, so `404.html` works.
 
-## Make it yours
+## 🛠️ Make it yours
 
-Search the whole project (Ctrl+Shift+F in Cursor or VS Code) for each of these and replace it:
+Search the whole project (`Ctrl+Shift+F` in Cursor or VS Code) and replace:
 
 | Find | Replace with |
 |---|---|
@@ -32,18 +63,19 @@ Search the whole project (Ctrl+Shift+F in Cursor or VS Code) for each of these a
 | `Project one`, `Service one`, `Skill one` | your real projects, services and skills |
 
 Then:
-- Replace the **YN** initials blocks in `index.html` and `about.html` with your photo (a comment marks each spot).
-- Copy `case-study.html` once per project.
-- Add `images/og-cover.png` (1200×630) for link previews.
-- Contact form: it posts to [FormSubmit](https://formsubmit.co). Send one test message and confirm the email they send you.
 
-## What's inside
+- 🖼️ Replace the **YN** initials blocks in `index.html` and `about.html` with your photo (a comment marks each spot)
+- 📑 Copy `case-study.html` once per project
+- 🌅 Add `images/og-cover.png` (1200×630) for link previews
+- 📨 Send one test message through the contact form and confirm the email FormSubmit sends you
 
-| File | Page |
+## 🗂️ What's inside
+
+| File | What it is |
 |---|---|
 | `index.html` | Home |
 | `projects.html` | All work |
-| `case-study.html` | Case study pattern |
+| `case-study.html` | Case-study pattern |
 | `services.html` | Services, process, FAQ |
 | `about.html` | About, experience, tools |
 | `contact.html` | Contact form |
@@ -51,12 +83,33 @@ Then:
 | `styles.css` | All styling |
 | `script.js` | Menu, dark mode, scroll progress, form helpers |
 
-Three classes carry the look: `.glass` (frosted panels), `.orb` (crystal bubbles) and `.blob` (colour clouds behind the page).
+## 🎨 Design tokens
 
-## Built-in details
+| Colour | Hex | Used for |
+|---|---|---|
+| Cream | `#FFF0E4` | page background |
+| Plum | `#2A1B3D` | headings, dark buttons |
+| Blue | `#3350DC` | primary accent |
+| Violet | `#7A5CE6` | gradient middle |
+| Coral | `#E8697A` | gradient middle |
+| Orange | `#FF9A52` | warm accent |
 
-Dark mode that remembers your choice, a skip link, visible focus rings, keyboard-friendly menu, reduced-motion support, mobile layout tested down to 390px, Open Graph tags and structured data, print styles.
+Fonts: **Bricolage Grotesque** for headings and **Inter** for body text, from Google Fonts.
 
-## License
+## 🤝 Contributing
 
-MIT. Free to use, including for client work. A link back is appreciated, never required.
+Found a bug or have an idea? [Open an issue](https://github.com/AbrarShuvo/Glass-bento-portfolio/issues). Small fixes are welcome as pull requests.
+
+## 📄 License
+
+[MIT](LICENSE): free to use, including for client work. A link back is appreciated, never required.
+
+---
+
+<div align="center">
+
+Built by **[Abrar Zamil](https://abrarshuvo.github.io)** · I clean data, build automations and make fast websites.
+
+⭐ If this saved you time, a star helps other people find it.
+
+</div>

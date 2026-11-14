@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Glass Bento Portfolio. A free portfolio template for students and freelancers.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3350DC"/><stop offset=".45" stop-color="#7A5CE6"/><stop offset=".78" stop-color="#E8697A"/><stop offset="1" stop-color="#FF9A52"/></linearGradient>
+<radialGradient id="o" cx=".32" cy=".26" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".35" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity=".06"/></radialGradient>
+<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+<clipPath id="c"><rect width="1000" height="280" rx="28"/></clipPath></defs>
+<style>
+.t{font:800 54px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;letter-spacing:-1.5px}
+.s{font:600 26px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;fill-opacity:.95}
+.n{font:500 18px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;fill-opacity:.85}
+.c2{font:600 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;text-anchor:middle}
+.c{opacity:0;animation:cyc 9s ease-in-out infinite}
+@keyframes cyc{0%{opacity:0;transform:translateY(10px)}6%,30%{opacity:1;transform:translateY(0)}36%,100%{opacity:0;transform:translateY(-8px)}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes dr{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,16px)}}
+.f1{animation:fl 6s ease-in-out infinite}.f2{animation:fl 8s ease-in-out -2s infinite}.f3{animation:fl 5s ease-in-out -1s infinite}.bl{animation:dr 12s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.f1,.f2,.f3,.bl{animation:none}.c{animation:none;opacity:0}.c:first-of-type{opacity:1}}
+</style>
+<g clip-path="url(#c)"><rect width="1000" height="280" fill="url(#g)"/>
+<g class="bl"><circle cx="150" cy="260" r="110" fill="#FFD34D" opacity=".45" filter="url(#b)"/><circle cx="700" cy="20" r="120" fill="#fff" opacity=".35" filter="url(#b)"/></g>
+<g class="f1"><circle cx="840" cy="70" r="46" fill="url(#o)"/></g><g class="f2"><circle cx="905" cy="190" r="28" fill="url(#o)"/></g><g class="f3"><circle cx="760" cy="215" r="18" fill="url(#o)"/></g><g class="f2"><circle cx="90" cy="60" r="22" fill="url(#o)"/></g><g class="f1"><circle cx="945" cy="45" r="12" fill="url(#o)"/></g><text x="60" y="130" class="t">Glass Bento Portfolio</text><text x="60" y="184" class="s">A free portfolio template for students and freelancers.</text><g class="chips"><rect x="60" y="208" width="104" height="30" rx="15" fill="#fff" fill-opacity=".22"/><text x="112" y="228" class="c2">Glass UI</text><rect x="176" y="208" width="104" height="30" rx="15" fill="#fff" fill-opacity=".22"/><text x="228" y="228" class="c2">Dark mode</text><rect x="292" y="208" width="104" height="30" rx="15" fill="#fff" fill-opacity=".22"/><text x="344" y="228" class="c2">No build</text></g></g></svg>
