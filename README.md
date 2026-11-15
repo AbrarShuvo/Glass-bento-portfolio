@@ -20,6 +20,8 @@
 |---|---|
 | <img src="images/preview.png" alt="Light mode preview"> | <img src="images/preview-dark.png" alt="Dark mode preview"> |
 
+<p align="center"><img src="images/dark-mode.gif" width="600" alt="Clicking the moon button switches the template from light to dark mode"><br><sub>One tap switches to dark mode, and it remembers the choice.</sub></p>
+
 ## 🎯 Why this exists
 
 Most free portfolio templates are plain, heavy with frameworks, or need a build tool. This one is **plain HTML, CSS and a little JavaScript**: open it, edit the text, and publish.
